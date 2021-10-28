@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="EventLogSercurityDataSet" targetNamespace="http://tempuri.org/EventLogSercurityDataSet.xsd" xmlns:mstns="http://tempuri.org/EventLogSercurityDataSet.xsd" xmlns="http://tempuri.org/EventLogSercurityDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="EventLogSercurityDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_UserDSName="EventLogSercurityDataSet" msprop:Generator_DataSetName="EventLogSercurityDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="eventlogsecurity" msprop:Generator_RowEvHandlerName="eventlogsecurityRowChangeEventHandler" msprop:Generator_RowDeletedName="eventlogsecurityRowDeleted" msprop:Generator_RowDeletingName="eventlogsecurityRowDeleting" msprop:Generator_RowEvArgName="eventlogsecurityRowChangeEvent" msprop:Generator_TablePropName="eventlogsecurity" msprop:Generator_RowChangedName="eventlogsecurityRowChanged" msprop:Generator_RowChangingName="eventlogsecurityRowChanging" msprop:Generator_TableClassName="eventlogsecurityDataTable" msprop:Generator_RowClassName="eventlogsecurityRow" msprop:Generator_TableVarName="tableeventlogsecurity" msprop:Generator_UserTableName="eventlogsecurity">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TransactionID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnPropNameInRow="TransactionID" msprop:Generator_ColumnPropNameInTable="TransactionIDColumn" msprop:Generator_ColumnVarNameInTable="columnTransactionID" msprop:Generator_UserColumnName="TransactionID" type="xs:int" />
+              <xs:element name="TransactionDate" msprop:Generator_ColumnPropNameInRow="TransactionDate" msprop:Generator_ColumnPropNameInTable="TransactionDateColumn" msprop:Generator_ColumnVarNameInTable="columnTransactionDate" msprop:Generator_UserColumnName="TransactionDate" type="xs:dateTime" />
+              <xs:element name="LogonName" msprop:Generator_ColumnPropNameInRow="LogonName" msprop:Generator_ColumnPropNameInTable="LogonNameColumn" msprop:Generator_ColumnVarNameInTable="columnLogonName" msprop:Generator_UserColumnName="LogonName" type="xs:string" />
+              <xs:element name="ItemAccessed" msprop:Generator_ColumnPropNameInRow="ItemAccessed" msprop:Generator_ColumnPropNameInTable="ItemAccessedColumn" msprop:Generator_ColumnVarNameInTable="columnItemAccessed" msprop:Generator_UserColumnName="ItemAccessed" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:eventlogsecurity" />
+      <xs:field xpath="mstns:TransactionID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

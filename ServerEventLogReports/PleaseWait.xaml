@@ -1,0 +1,14 @@
+﻿<Window x:Class="ServerEventLogReports.PleaseWait"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="None"
+        xmlns:local="clr-namespace:ServerEventLogReports"
+        mc:Ignorable="d"
+        Title="PleaseWait" Height="100" Width="200">
+    <Grid>
+        <Label x:Name="lblPleaseWait" Content="Please Wait" FontSize="28" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalAlignment="Center" VerticalContentAlignment="Center"/>
+    </Grid>
+</Window>
