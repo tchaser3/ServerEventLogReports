@@ -57,7 +57,7 @@
         <Grid Height="23" VerticalAlignment="Top" Background="AliceBlue" MouseLeftButtonDown="Grid_MouseLeftButtonDown"/>
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top" Height="150" Width="1000">
             <Image x:Name="imgLogo" Source="logo.png" HorizontalAlignment="Center" VerticalAlignment="Top" Height="100"/>
-            <Label x:Name="lblTitle" Content="Get Date into Server Event Log Reports" FontSize="20" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalAlignment="Center" VerticalContentAlignment="Center" Height="50"/>
+            <Label x:Name="lblTitle" Content="Get Data into Server Event Log Reports" FontSize="20" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalAlignment="Center" VerticalContentAlignment="Center" Height="50"/>
         </StackPanel>
         <StackPanel HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="150" Height="630" Background="LightBlue">
             <Expander x:Name="expProcessDay" Header="Process Day" FontSize="16" Margin="10,1,1,1" Expanded="expProcessDay_Expanded" />
